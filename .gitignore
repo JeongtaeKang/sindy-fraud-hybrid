@@ -1,0 +1,28 @@
+﻿# === raw data (대용량) ===
+PS_20174392719_1491204439457_log.csv
+
+# === experiment artifacts ===
+artifacts_sindy/
+artifacts_sindy_v2/
+artifacts_sindy_v3/
+artifacts_sindy_v4_hybrid/
+runs/
+*.log
+
+# === python & temp ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# === binary/model artifacts ===
+*.parquet
+*.joblib
+*.pkl
+*.gz
+
+# === images (선택: 리포지토리에 필요 없으면)
+# *.png
+# *.svg
